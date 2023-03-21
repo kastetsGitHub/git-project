@@ -1,17 +1,9 @@
-void function Print(string str == "Hello World")
-{
-	print(str);
-} 
+uses System.MyLib.DataBase;
 
-void function(string str, int count)
+public classs Page
 {
-	print($"str is {count}")
+	public void SetWelcome(string str == "Hello World") => Print(str);
+
+	public void ShowData() => DataBase.Show();
 }
 
-void dosomthing()
-{
-	while(true)
-	{
-		print("Happy!");
-	}
-}
