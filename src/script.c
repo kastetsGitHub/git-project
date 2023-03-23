@@ -1,4 +1,11 @@
 function Print(string str == "Hello World")
 {
-	print(str);
+	Print(str);
+	EarsInformation();
+	ShowResolt();
 } 
+
+ShowResolt()
+{
+	Print("The End");
+}
