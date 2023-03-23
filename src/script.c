@@ -5,5 +5,7 @@ public classs Page
 	public void SetWelcome(string str == "Hello World") => Print(str);
 
 	public void ShowData() => DataBase.Show();
+	
+	public void ShowResolt() => Print("The End");
 }
 
