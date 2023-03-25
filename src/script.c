@@ -1,11 +1,20 @@
-function Print(string str == "Hello World")
+uses System.MyLib.DataBase;
+
+public classs Page
 {
 	Print(str);
 	EarsInformation();
 	ShowResolt();
 } 
 
-ShowResolt()
-{
-	Print("The End");
+
+
+	print(str);
+} 
+	public void SetWelcome(string str == "Hello World") => Print(str);
+
+	public void ShowData() => DataBase.Show();
+	
+	public void ShowResolt() => Print("The End");
 }
+
